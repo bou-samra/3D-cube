@@ -1,0 +1,316 @@
+V "GNAT Lib v13"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U threed%b		threed.adb		acda4748 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W sdl%s			sdl.adb			sdl.ali
+W sdl.error%s		sdl-error.adb		sdl-error.ali
+W sdl.events%s		sdl-events.ads		sdl-events.ali
+W sdl.events.events%s	sdl-events-events.adb	sdl-events-events.ali
+W sdl.images%s		sdl-images.adb		sdl-images.ali
+W sdl.images.io%s	sdl-images-io.adb	sdl-images-io.ali
+W sdl.video%s		sdl-video.adb		sdl-video.ali
+W sdl.video.rectangles%s  sdl-video-rectangles.adb  sdl-video-rectangles.ali
+W sdl.video.renderers%s	sdl-video-renderers.adb	sdl-video-renderers.ali
+W sdl.video.renderers.makers%s  sdl-video-renderers-makers.adb  sdl-video-renderers-makers.ali
+W sdl.video.surfaces%s	sdl-video-surfaces.adb	sdl-video-surfaces.ali
+W sdl.video.surfaces.makers%s  sdl-video-surfaces-makers.adb  sdl-video-surfaces-makers.ali
+W sdl.video.textures%s	sdl-video-textures.adb	sdl-video-textures.ali
+W sdl.video.textures.makers%s  sdl-video-textures-makers.adb  sdl-video-textures-makers.ali
+W sdl.video.windows%s	sdl-video-windows.adb	sdl-video-windows.ali
+W sdl.video.windows.makers%s  sdl-video-windows-makers.adb  sdl-video-windows-makers.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230426000000 76789da1 ada%s
+D a-calend.ads		20230426000000 f55c50a3 ada.calendar%s
+D a-caldel.ads		20230426000000 9f20b83d ada.calendar.delays%s
+D a-charac.ads		20230426000000 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230426000000 e0d72e76 ada.characters.latin_1%s
+D a-comlin.ads		20230426000000 4aa66568 ada.command_line%s
+D a-except.ads		20230426000000 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230426000000 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230426000000 40018c65 ada.io_exceptions%s
+D a-iteint.ads		20230426000000 49a8bee2 ada.iterator_interfaces%s
+D a-numeri.ads		20230426000000 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20230426000000 dc1b3a37 ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20230426000000 58d8ffc8 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20230426000000 119b8fb3 ada.streams%s
+D a-string.ads		20230426000000 90ac6797 ada.strings%s
+D a-sttebu.ads		20230426000000 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230426000000 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230426000000 9eaa38c6 ada.tags%s
+D a-textio.ads		20230426000000 5c2c6153 ada.text_io%s
+D a-unccon.ads		20230426000000 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230426000000 15f799c2 interfaces%s
+D i-c.ads		20230426000000 5c5a6c17 interfaces.c%s
+D i-cpoint.ads		20230426000000 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20230426000000 f40c8db4 interfaces.c.strings%s
+D i-cstrea.ads		20230426000000 e53d8b8e interfaces.c_streams%s
+D sdl.ads		20230506025106 327c4872 sdl%s
+D sdl-c_pointers.ads	20230506025106 6bd5a717 sdl.c_pointers%s
+D sdl-error.ads		20230506025106 c9d08c30 sdl.error%s
+D sdl-events.ads	20230506025106 3b4bc05f sdl.events%s
+D sdl-events-controllers.ads  20230506025106 1204108d sdl.events.controllers%s
+D sdl-events-events.ads	20230506025106 8e3f142f sdl.events.events%s
+D sdl-events-files.ads	20230506025106 3aa849f0 sdl.events.files%s
+D sdl-events-joysticks.ads  20230506025106 dc8cbff2 sdl.events.joysticks%s
+D sdl-events-keyboards.ads  20230506025220 300c6c02 sdl.events.keyboards%s
+D sdl-events-mice.ads	20230506025106 dc65745f sdl.events.mice%s
+D sdl-events-touches.ads  20230506025106 237f7819 sdl.events.touches%s
+D sdl-events-windows.ads  20230506025106 d0316430 sdl.events.windows%s
+D sdl-images.ads	20230506025106 3d2b75e5 sdl.images%s
+D sdl-images-io.ads	20230506025106 c01195b2 sdl.images.io%s
+D sdl-rwops.ads		20230506025106 687eeedd sdl.rwops%s
+D sdl-video.ads		20230506025106 e2861aa4 sdl.video%s
+D sdl-video-displays.ads  20230506025106 3485c755 sdl.video.displays%s
+D sdl-video-palettes.ads  20230506025106 4706123d sdl.video.palettes%s
+D sdl-video-pixel_formats.ads  20230506025106 c8b4430e sdl.video.pixel_formats%s
+D sdl-video-pixels.ads	20230506025106 73ff7ff8 sdl.video.pixels%s
+D sdl-video-rectangles.ads  20230506025106 c9e2679a sdl.video.rectangles%s
+D sdl-video-renderers.ads  20230506025106 2a4d8895 sdl.video.renderers%s
+D sdl-video-renderers-makers.ads  20230506025106 3c3a4e96 sdl.video.renderers.makers%s
+D sdl-video-surfaces.ads  20230506025106 8d22e69e sdl.video.surfaces%s
+D sdl-video-surfaces-makers.ads  20230506025106 5c9a932a sdl.video.surfaces.makers%s
+D sdl-video-textures.ads  20230506025106 a859e8f0 sdl.video.textures%s
+D sdl-video-textures-makers.ads  20230506025106 b1df1996 sdl.video.textures.makers%s
+D sdl-video-windows.ads	20230506025106 9a4158ec sdl.video.windows%s
+D sdl-video-windows-makers.ads  20230506025106 d3172094 sdl.video.windows.makers%s
+D system.ads		20230426000000 426dafb8 system%s
+D s-conca2.ads		20230426000000 b5fb73f7 system.concat_2%s
+D s-crtl.ads		20230426000000 8a0692f8 system.crtl%s
+D s-exctab.ads		20230426000000 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230426000000 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20230426000000 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230426000000 4ff27390 system.finalization_root%s
+D s-memory.ads		20230426000000 5b8432d0 system.memory%s
+D s-parame.ads		20230426000000 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230426000000 91708d21 system.pool_global%s
+D s-putima.ads		20230426000000 17291fe4 system.put_images%s
+D s-retsta.ads		20230426000000 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230426000000 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230426000000 df77073e system.soft_links%s
+D s-stache.ads		20230426000000 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230426000000 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230426000000 eb464a47 system.standard_library%b
+D s-stoele.ads		20230426000000 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230426000000 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230426000000 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20230426000000 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20230426000000 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230426000000 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230426000000 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230426000000 d9032363 system.wch_con%s
+D threed.adb		20230408094738 2a3ff7cd threed%b
+G a e
+G c Z b b [threed standard 36 11 none]
+G r s window [threed standard 36 11 none] [windowIP sdl__video__windows 190 9 none]
+G r s renderer [threed standard 36 11 none] [rendererIP sdl__video__renderers 132 9 none]
+G r s surface [threed standard 36 11 none] [surfaceIP sdl__video__surfaces 233 9 none]
+G r s texture [threed standard 36 11 none] [textureIP sdl__video__textures 112 9 none]
+G r s events [threed standard 36 11 none] [eventsIP sdl__events__events 60 9 none]
+G r c none [threed standard 36 11 none] [initialise sdl 102 13 none]
+G r c none [threed standard 36 11 none] [initialise sdl__images 45 13 none]
+G r c none [threed standard 36 11 none] [get sdl__error 37 13 none]
+G r c none [threed standard 36 11 none] [undefined_window_position sdl__video__windows 44 13 none]
+G r c none [threed standard 36 11 none] [create sdl__video__windows__makers 34 14 none]
+G r c none [threed standard 36 11 none] [create sdl__video__renderers__makers 39 14 none]
+G r c none [threed standard 36 11 none] [set_scale sdl__video__renderers 117 14 none]
+G r c none [threed standard 36 11 none] [set_draw_colour sdl__video__renderers 70 14 none]
+G r c none [threed standard 36 11 none] [clear sdl__video__renderers 74 14 none]
+G r c none [threed standard 36 11 none] [draw sdl__video__renderers 100 14 none]
+G r c none [threed standard 36 11 none] [present sdl__video__renderers 122 14 none]
+G r c none [threed standard 36 11 none] [poll sdl__events__events 135 13 none]
+G r e texture [threed standard 36 11 none] [finalize sdl__video__textures 122 14 none]
+G r e renderer [threed standard 36 11 none] [finalize sdl__video__renderers 64 14 none]
+G r e window [threed standard 36 11 none] [finalize sdl__video__windows 96 14 none]
+G r c none [threed standard 36 11 none] [finalise sdl 104 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 80|20r6 20r45 21r6 21r45 22r6 22r45 101r10 102r13 104r10 104r44
+X 6 a-comlin.ads
+36K13*Command_Line 144e21 80|21w10 21r49 104r14 104r48
+70I9*Exit_Status<integer>
+73i4*Failure{70I9} 80|104r61
+75U14*Set_Exit_Status 80|104s27
+X 11 a-numeri.ads
+16K13*Numerics 35e17 80|22r10 22r49
+X 12 a-nuelfu.ads
+18K22*Elementary_Functions[13|39] 80|22w19 22r58
+X 13 a-ngelfu.ads
+95V13*Sin{float} 80|148s56[12|18] 149s28[12|18] 152s29[12|18] 154s31[12|18]
+. 157s58[12|18] 158s29[12|18]
+105V13*Cos{float} 80|148s28[12|18] 149s56[12|18] 152s58[12|18] 154s61[12|18]
+. 157s29[12|18] 158s58[12|18]
+X 17 a-stuten.ads
+59A12*UTF_8_String{string}<integer>
+X 19 a-textio.ads
+58K13*Text_IO 787e16 80|20w10 20r49 101r14 102r17
+66P9*File_Type
+188V13*Standard_Error{66P9} 80|102s25
+555U14*Put_Line 80|101s22
+566U14*Put_Line 80|220s4
+X 22 i-c.ads
+57I9*int<integer> 80|184r18 184r32 184r48 184r62 186r18 186r32 186r48 186r62
+. 188r18 188r32 188r48 188r62 190r18 190r32 190r48 190r62 194r18 194r32 194r48
+. 194r62 196r18 196r32 196r48 196r62 198r18 198r32 198r48 198r62 200r18 200r32
+. 200r48 200r62 204r18 204r32 204r48 204r62 206r18 206r32 206r48 206r62 208r18
+. 208r32 208r48 208r62 210r18 210r32 210r48 210r62
+X 26 sdl.ads
+29K9*SDL 139e8 80|24r6 25r6 26r6 27r6 28r6 32r6 33r6 34r6 35r5 64r8 67r13
+. 74r12 82r16 84r13 85r39 100r14 100r36 103r40 136r7
+32K12*C=32:33 80|35r9
+53I12*Coordinate{22|57I9}
+54I12*Natural_Coordinate{53I12}
+102V13*Initialise{boolean} 80|100s18
+104U14*Finalise 80|136s11
+X 28 sdl-error.ads
+27K13*Error 38e14 80|34w10 103r44
+37V13*Get{string} 80|103s50
+X 29 sdl-events.ads
+33K13*Events 136e15 80|33r10 67r17 74r16 82r20 84r17 85r43
+36M9*Event_Types 80|67r24 82r27
+52m4*Quit{36M9} 80|85r50
+85m10*Event_Type{36M9} 80|85r26
+X 31 sdl-events-events.ads
+36K20*Events 144e22 80|33w17 74r23 84r24
+60R9*Events 123e18 80|74r30
+121r16*Common{29|83R9} 80|85r19
+135V13*Poll{boolean} 80|84s31
+X 38 sdl-images.ads
+29K13*Images 57e15 80|32r10 100r40
+45V13*Initialise{boolean}<26|102p13> 80|100s47
+X 39 sdl-images-io.ads
+32K20*IO 52e18 80|32w17
+X 41 sdl-video.ads
+29K13*Video 74e14 80|24r10 25r10 26r10 27r10 28r10 64r12
+X 46 sdl-video-rectangles.ads
+29K19*Rectangles 82e25 80|28w16
+X 47 sdl-video-renderers.ads
+34K19*Renderers 145e24 80|25r16 66r13 70r10 119r7 122r21 122r46 177r7 178r7
+. 180r7 212r7 222r4
+41M9*Renderer_Flags 80|66r23
+46m4*Accelerated{41M9} 80|122r31
+47m4*Present_V_Sync{41M9} 80|122r56
+59R9*Renderer<8|50R9> 136e17 80|70r20
+64U14*Finalize<8|54p14> 80|134s11
+70U14*Set_Draw_Colour 80|177s17 180s17
+74U14*Clear 80|178s17
+100U14*Draw 80|183s11 185s11 187s11 189s11 193s11 195s11 197s11 199s11 203s11
+. 205s11 207s11 209s11
+100r44 Line{46|44R9} 80|184r8 186r8 188r8 190r8 194r8 196r8 198r8 200r8 204r8
+. 206r8 208r8 210r8
+117U14*Set_Scale 80|222s14
+122U14*Present 80|212s17
+X 48 sdl-video-renderers-makers.ads
+29K29*Makers 50e31 80|25w26 119r17
+39U14*Create 80|119s24
+40r7 Rend{47|59R9} 80|120r10
+41r7 Window{53|89R9} 80|121r10
+42m7 Flags{47|41M9} 80|122r10
+X 49 sdl-video-surfaces.ads
+36K19*Surfaces 242e23 80|26r16 71r10
+56R9*Surface<8|43R9> 237e17 80|71r19
+X 50 sdl-video-surfaces-makers.ads
+29K28*Makers 83e30 80|26w25
+X 51 sdl-video-textures.ads
+34K19*Textures 134e23 80|27r16 72r10
+43R9*Texture<8|50R9> 119e17 80|72r19
+122U14 Finalize<8|54p14> 80|133s11
+X 52 sdl-video-textures-makers.ads
+30K28*Makers 44e30 80|27w25
+X 53 sdl-video-windows.ads
+36K19*Windows 208e22 80|24r16 65r13 69r10 109r7 113r13 114r13 116r19
+44V13*Undefined_Window_Position{26|54I12} 80|113s21 114s21
+52M9*Window_Flags 80|65r21
+58m4*Shown{52M9} 80|116r27
+89R9*Window<8|50R9> 194e17 80|69r18
+96U14*Finalize<8|54p14> 80|135s11
+X 54 sdl-video-windows-makers.ads
+27K27*Makers 56e29 80|24w24 109r15
+34U14*Create 80|109s22
+36a7 Title{17|59A12} 80|111r10
+37r7 Position{26|68R12} 80|112r10
+38r7 Size{26|93R12} 80|115r10
+39m7 Flags{53|52M9} 80|116r10
+X 55 system.ads
+67M9*Address
+X 62 s-memory.ads
+51V13*Alloc{55|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{55|67M9} 103i<c,__gnat_realloc>22
+X 71 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 80 threed.adb
+36U11*threed 36b11 234l5 234t11
+40a4 S{string}
+44a4 xt(float) 147m10 152r49 154r20 157m10 162m10 162r21 184r23 184r53 186r23
+. 186r53 188r23 188r53 190r23 190r53 194r23 194r53 196r23 196r53 198r23 198r53
+. 200r23 200r53 204r23 204r53 206r23 206r53 208r23 208r53 210r23 210r53
+44a8 yt(float) 148m10 153r20 158m10 163m10 163r21 184r37 184r67 186r37 186r67
+. 188r37 188r67 190r37 190r67 194r37 194r67 196r37 196r67 198r37 198r67 200r37
+. 200r67 204r37 204r67 206r37 206r67 208r37 208r67 210r37 210r67
+44a12 zt(float) 149m10 152r20 154r52 159m10 162r40 163r40
+45a4 xu(float) 152m10 157r20 158r20
+45a8 yu(float) 153m10 157r49 158r49
+45a12 zu(float) 154m10 159r20
+49a4 x(float) 147r20
+51a4 y(float) 148r20 149r20
+53a4 z(float) 148r48 149r48
+56f4 angle{float} 148r39 148r67 149r39 149r67 152r40 152r69 154r42 154r72
+. 157r40 157r69 158r40 158r69 167m7 167r16
+57f4 scale{float} 162r58 163r58
+58f4 RAD{float} 148r33 148r61 149r33 149r61 152r34 152r63 154r36 154r66 157r34
+. 157r63 158r34 158r63
+59f4 SPEED{float} 167r24
+61a4 Window_Title{string} 111r22
+62b4 quit{boolean} 228m7 229r17
+69r4 Win{53|89R9} 110m10 110r10 121m20 121r20 135m7 135r7
+70r4 Ren{47|59R9} 120m20 120r20 134m7 134r7 177m34 177r34 178m24 178r24 180m34
+. 180r34 183m7 183r7 185m7 185r7 187m7 187r7 189m7 189r7 193m7 193r7 195m7
+. 195r7 197m7 197r7 199m7 199r7 203m7 203r7 205m7 205r7 207m7 207r7 209m7
+. 209r7 212r26 222m25 222r25
+71r4 Bmp{49|56R9}
+72r4 Tex{51|43R9} 133m7 133r7
+74r4 Event{31|60R9} 84m37 84r37 85r13
+75b4 Dummy{boolean}
+81V13 Poll_Quit{boolean} 81b13 90l8 90t17 228s15
+95U14 initSDL 95b14 124l8 124t15 221s4
+129U14 shutdownSDL 129b14 137l8 137t19 233s4
+142U14 rotate 142b14 169l8 169t14 226s7
+145i11 I{integer} 147r14 147r23 148r14 148r23 148r51 149r14 149r23 149r51
+. 152r14 152r24 152r53 153r14 153r24 154r14 154r24 154r56 157r14 157r24 157r53
+. 158r14 158r24 158r53 159r14 159r24 162r14 162r25 162r44 163r14 163r25 163r44
+174U14 Render 174b14 213l8 213t14 227s7
+224l4 Main 231l13 231e17
+

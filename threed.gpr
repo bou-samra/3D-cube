@@ -1,0 +1,5 @@
+with "/home/jason/opt/sdlada/share/gpr/sdlada.gpr";
+
+project threed is
+   for Main use ("threed.adb");
+end threed;

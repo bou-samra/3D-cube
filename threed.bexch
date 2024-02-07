@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__threed.o
+[PROJECT FILES]
+/home/jason/Projects/Ada/3dc/threed.gpr
+20230318225743 0663ee68fdcdcea9e21ca9ca03d50775
+/home/jason/opt/sdlada/share/gpr/sdlada.gpr
+20230506025901 af41c3ed36798e1c0fec4f1f74bfb120
+[BOUND OBJECT FILES]
+/home/jason/Projects/Ada/3dc/threed.o
+[GENERATED SOURCE FILES]
+b__threed.ads
+b__threed.adb
+b__threed.ali
+[RESULTING OPTIONS]
+-L/home/jason/Projects/Ada/3dc/
+-L/home/jason/Projects/Ada/3dc/
+-L/home/jason/opt/sdlada/lib/sdlada.release/
+-L/usr/lib/gcc/x86_64-redhat-linux/13/adalib/
+-static
+/usr/lib/gcc/x86_64-redhat-linux/13/adalib/libgnat.a
+-lm
+-ldl
